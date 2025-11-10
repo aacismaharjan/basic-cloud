@@ -1,0 +1,27 @@
+{
+  "name": "ssh-api-server",
+  "version": "1.0.0",
+  "description": "Secure Express API for executing predefined SSH commands",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Aashish Maharjan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.11.2",
+    "express-validator": "^7.3.0",
+    "helmet": "^6.2.0",
+    "ssh2": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "engines": {
+    "node": "^16"
+  }
+}
