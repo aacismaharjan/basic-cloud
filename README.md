@@ -27,3 +27,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:3000/s3/store" -Method POST -Headers @{
 ```powershell
 Invoke-RestMethod -Uri "http://127.0.0.1:3000/s3/messages" -Method GET -Headers @{ "x-api-key"="don" }
 ```  
+
+![Application Logs](./public/screenshot-01-logs.png)
+
+![Client Service Consumption](./public/screenshot-02-client-usage.png)
